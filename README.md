@@ -1,18 +1,28 @@
-=================
 tpylink
 =================
-Python (2.7.12) based command line tool for basic control of TP-Link router TL-WR841N/TL-WR841ND (FW 3.16.9).
+Python 2.7 based command line tool for basic control of TP-Link routers.
 
-Basic Use
+Supported devices
+---------
+* TL-WR841N / TL-WR841ND FW 3.16.9 Build 150310 Rel.54318n
+
+..should work with other TP-Link routers as well.
+
+Features
+---------
+* reboot router
+* get current traffic statistics
+
+Usage
 ---------
 
-Either use directly from command line: ::
+command line:
 
     $python tpylink.py -h 192.168.0.1 -u admin -p admin -t
     Received 27716 KB
     Transmitted 9671 KB
 
-Or as import: ::
+import:
 
     import tpylink
 
